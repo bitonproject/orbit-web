@@ -88,6 +88,11 @@ const config = {
             }
           }
         ]
+      },
+      {
+        test: /\.wasm$/,
+        type: 'javascript/auto',
+        loader: 'file-loader'
       }
     ]
   },
