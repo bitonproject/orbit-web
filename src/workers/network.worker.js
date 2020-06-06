@@ -6,7 +6,7 @@ import '@babel/polyfill'
 import IPFS from 'ipfs'
 import Orbit from 'orbit_'
 
-//import libp2pbiton from 'js-libp2p-biton'
+import libp2pbiton from 'js-libp2p-biton'
 
 import promiseQueue from '../utils/promise-queue'
 import { concatUint8Arrays } from '../utils/file-helpers'

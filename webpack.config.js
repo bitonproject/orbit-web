@@ -91,11 +91,11 @@ const config = {
       },
       {
         test: /\.wasm$/,
-        type: 'javascript/auto',
-        loader: 'file-loader'
+        type: "webassembly/experimental"
       }
     ]
   },
+  target: 'web',
   node: {
     fs: 'empty',
     net: 'empty',
